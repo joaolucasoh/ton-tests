@@ -1,0 +1,15 @@
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependency files
+Gemfile.lock
+
+# PNG files n' logs
+exec-logs/
+*.png
+*.out
+
+#Enviroment Variables
+aws.yaml

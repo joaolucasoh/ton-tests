@@ -1,0 +1,15 @@
+{
+  "caps": {
+      "deviceName": "iPhone 12 Pro Max",
+      "platformName": "iOS",
+      "platformVersion": "14.2",
+      "app": "",
+      "language": "pt",
+      "locale": "br",
+      "newCommandTimeout": "10000",
+      "autoAcceptAlerts": true
+  },
+  "appium_lib": {
+    "wait_timeout": "30"
+  }
+}

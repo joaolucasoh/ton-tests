@@ -1,0 +1,15 @@
+{
+    "caps": {
+        "deviceName": "Pixel_2_API_30",
+        "platformName": "Android",
+        "platformVersion": "11",
+        "appActivity": "br.com.stone.ton.MainActivity",
+        "appPackage": "br.com.stone.ton",
+        "autoGrantPermissions": true,
+        "allowTestPackages": true,
+        "language": "pt",
+        "locale": "br",
+        "newCommandTimeout": "10000",
+        "autoAcceptAlerts": true
+    }
+}

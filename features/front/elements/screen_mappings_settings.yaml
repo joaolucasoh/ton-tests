@@ -1,0 +1,21 @@
+ios:
+    txt_username_header:
+      tipo_busca: ""
+      value: ''
+    txt_name_header:
+      tipo_busca: ""
+      value: ''
+    txt_username_list:
+      tipo_busca: ""
+      value: ''
+
+android:
+    txt_username_header:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/sectionHeaderUsername'
+    txt_name_header:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/sectionHeaderName'
+    txt_username_list:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.TextView[2]'

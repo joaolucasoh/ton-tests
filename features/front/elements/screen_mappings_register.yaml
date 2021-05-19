@@ -1,0 +1,156 @@
+ios:
+    btn_register:
+      tipo_busca: "ACCESSIBILITY_ID"
+      value: registerButton
+    input_cpf:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField[1]'
+    input_birthday:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField[2]'
+    btn_next:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeButton[@name="Avançar"]'
+    input_name:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeTextField[1]'
+    input_lastname:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeTextField[2]'
+    input_DDD:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeTextField[1]'
+    input_number:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeTextField[2]'
+    btn_sms:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeButton[@name="Receber código via SMS"]'
+    txt_number_and_code:
+      tipo_busca: "XPATH"
+      value: ''
+    btn_ok:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeButton[@name="Ok"]'
+    txt_sms_code:
+      tipo_busca: "XPATH"
+      value: ''
+    link_skip_code:
+      tipo_busca: "XPATH"
+      value: ''
+    input_sms_code:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeTextField'
+    input_email:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField'
+    input_password:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeApplication[@name="PicPay"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField'
+    btn_btnext:
+      tipo_busca: "XPATH"
+      value: ''
+    btn_finish:
+      tipo_busca: "XPATH"
+      value: '//XCUIElementTypeButton[@name="Continuar"]'
+    btn_review_confirm:
+      tipo_busca: "XPATH"
+      value: ''
+    input_username:
+      tipo_busca: "XPATH"
+      value: ''
+    btn_username_next:
+      tipo_busca: "XPATH"
+      value: ''
+    link_skip_step:
+      tipo_busca: "XPATH"
+      value: ''
+    link_close_onboarding:
+      tipo_busca: "XPATH"
+      value: ''
+    link_close_tutorial:
+      tipo_busca: "ID"
+      value: ''
+
+android:
+    title_novo_cadastro:
+      tipo_busca: "XPATH"
+      value: "//android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[2]"
+    btn_nao_sou_cliente:
+      tipo_busca: "XPATH"
+      value: "//android.view.ViewGroup/android.view.ViewGroup[2]"
+    btn_para_vc_option:
+      tipo_busca: "XPATH"
+      value: "//android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]"
+    btn_criar_minha_conta:
+      tipo_busca: "XPATH"
+      value: "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]"
+    input_cpf:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[8]/android.widget.EditText'
+    input_name:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[9]/android.widget.EditText'
+    input_birthday:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.EditText'
+    btn_next:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/btnNext'
+    input_mobile_number:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[8]/android.widget.EditText'
+    input_email:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[9]/android.widget.EditText'
+    input_mom_name:
+      tipo_busca: "XPATH"
+      value: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[5]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[8]/android.widget.EditText'
+    txt_number_and_code:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/textSubtitle'
+    link_skip_code:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/btnSkip'
+    input_sms_code:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/edtCode'
+    input_email:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/edtEmail'
+    input_password:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/edittextPassword'
+    btn_btnext:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/btNext'
+    btn_finish:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/picpayButtonNext'
+    title_review:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/txtValidationTitle'
+    title_review_analyze:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/txtAnalyzeTitle'
+    btn_review_confirm:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/btnReviewConfirm'
+    input_username:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/fragmentRegisterUsernameText'
+    btn_username_next:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/fragmentRegisterUsernameButtonNext'
+    link_skip_step:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/next'
+    link_close_onboarding:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/buttonCloseOnboarding'
+    link_close_onboarding_pix:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/closeButton'
+    link_close_tutorial:
+      tipo_busca: "ID"
+      value: 'com.picpay.debug:id/closeTutorialParent'
