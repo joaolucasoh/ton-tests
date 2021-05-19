@@ -8,8 +8,7 @@
 
 
  <h1 align="center">Começando 💻</h1>
-Antes de começar, você vai precisar ter instalado em sua máquina todo o ambiente de desenvolvimento. Você pode consultar    como fazer em nosso tutorial no nosso <a href="https://picpay.atlassian.net/wiki/spaces/ATI/pages/1435697508/Configura+o+do+ambiente+de+desenvolvimento">Confluence</a>.
-
+Antes de começar, você vai precisar ter instalado em sua máquina todo o ambiente de desenvolvimento. Você pode consultar    como fazer em nosso tutorial.
 - [Instalando as dependências](#setup)
 - [Executando o projeto](#running)
 - [O que já foi automatizado?](#fluxos)
@@ -24,18 +23,18 @@ Para executar as automações contidas nesse projeto é necessário ter instalad
 <li>Emulador Android</li>
 <li>Emulador iOS</li><br>
 
- Aqui você pode consultar como instalar o [Ruby](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1543897161/Instalando+o+Ruby), [Appium](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1427964569/Configurando+o+Appium), [Android Studio](https://picpay.atlassian.net/wiki/spaces/TP/pages/1142490835/Como+configurar+o+Android+Studio) e o [Xcode](https://picpay.atlassian.net/wiki/spaces/TP/pages/1100185996/Como+configurar+o+Xcode).
- Também será necessário configurar o [Emulador Android](https://picpay.atlassian.net/wiki/spaces/TP/pages/1142490835/Como+configurar+o+Android+Studio#%23-Instalando-o-Emulador-de-Android%3A) e o [Simulador iOS](https://picpay.atlassian.net/wiki/spaces/TP/pages/1100644543/Instalando+o+App+no+Simulator).
+ Aqui você pode consultar como instalar o [Ruby], [Appium].
+ Também será necessário configurar o [Emulador Android] e o [Simulador iOS.
 
 <h3>Problemas ⚠️</h3>
 
-É possível que ao instalar o Appium você tenha problemas com as variáveis de ambiente. Consulte o material sobre [JAVA JDK](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1427964569/Configurando+o+Appium#%23-Instalando-o-JAVA-JDK-(Java-SE-Development-Kit)), [Android SDK](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1427964569/Configurando+o+Appium#%23-Configurando-o-Android-SDK) e como configurar as [Variáveis de Ambiente](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1427964569/Configurando+o+Appium#%23-Configurando-as-Vari%C3%A1veis-de-Ambiente).
+É possível que ao instalar o Appium você tenha problemas com as variáveis de ambiente. Consulte o material sobre [JAVA JDK], [Android SDK] e como configurar as [Variáveis de Ambiente].
 
 <h3>Instalação ⚙️</h3>
 
 1. Para clonar o projeto, utilize o seguinte comando em seu terminal:
 ```bash
-git clone https://github.com/PicPay/mobile-tests
+git clone https://github.com/ton-tests
 ```
 2. Para instalar todas as dependências, basta executar:
 ```ruby
@@ -49,7 +48,7 @@ $ gem install bundler
 $ bundle install
 ```
 3. Acesse o arquivo *config/android/appium.json* ou *config/ios/appium.json*
-4. Altere as informações das capabilities de acordo com o device que deseja executar os testes, [nesta página](https://picpay.atlassian.net/wiki/spaces/ATI/pages/1435697508/Configura+o+do+ambiente+de+desenvolvimento) explicamos como fazer.
+4. Altere as informações das capabilities de acordo com o device que deseja executar os testes.
 
 <h2 align="center" name="running">Executando o projeto ✅</h2>
 <h3>Pré-requisitos❗</h3>
@@ -77,10 +76,10 @@ Para executar os cenários isoladamente você precisa acessar o caminho:
 $ cd features/front
 
 #Exemplo iOS
-$ cucumber -t @p2p PLATFORM=ios
+$ cucumber -t @login PLATFORM=ios
 
 #Exemplo Android
-$ cucumber -t @p2p PLATFORM=android
+$ cucumber -t @login PLATFORM=android
 ```
 
 <h2 align="center" name="fluxos">O que já foi automatizado?</h2>
@@ -88,7 +87,7 @@ $ cucumber -t @p2p PLATFORM=android
 
 
 <h2 align="center" name="contributing">Contribuindo com o Projeto 🔄</h2>
-<p align="center">Para contribuir com o projeto consulte nosso <a href="https://github.com/PicPay/mobile-tests/blob/main/CONTRIBUTING.md">CONTRIBUTING</a>.</p>
+<p align="center">Para contribuir com o projeto consulte nosso CONTRIBUTING</a>.</p>
 
 <h1  align="center" name="stack">
 Stack
