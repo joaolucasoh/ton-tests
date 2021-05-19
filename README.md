@@ -1,7 +1,7 @@
 <h1 align="center">
-📲 Picpay Mobile Tests
+📲 Ton Mobile Tests
 </h1>
-<p  align="center">🚀 Testes E2E de interfaces dos aplicativos Android e iOS do Picpay.</p>
+<p  align="center">🚀 Testes E2E de interfaces dos aplicativos Android e iOS do Ton.</p>
 <h1  align="center">
 <img  alt="npm"  src="https://img.shields.io/npm/v/appium?label=appium&logo=appium&style=flat-square">
 <img alt="rubocop" src="https://img.shields.io/badge/code_style-rubocop-brightgreen.svg?style=flat-square">
